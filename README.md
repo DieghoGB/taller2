@@ -34,3 +34,11 @@ $$\sum_t x_{ict}\le Q_{ic}\quad\forall i,c \qquad\qquad \sum_i q_{it}\le RH_t\qu
 **Formulación B.** A más $\ \sum_t x_{ict}\le Q_{ic}\,z_i\quad\forall i,c$.
 
 **Equivalencia (argumento algebraico).** Si $z_i=0$, ambas fuerzan $q_{it}=0$ y por tanto $x_{ict}=0$, y la restricción de B se cumple. Si $z_i=1$, la restricción de B coincide con $\sum_t x_{ict}\le Q_{ic}$, ya presente en A. Luego los conjuntos de soluciones enteras coinciden. Se complementa con verificación numérica en el cuaderno.
+
+## Supuestos económicos y alcance de la calibración
+
+Los parámetros económicos utilizados en el experimento son sintéticos y tienen por objetivo representar diferencias relativas de valorización entre calibres y costos de despacho, sin pretender reproducir una estructura contable real del packing.
+
+En particular, estos valores se utilizan para evaluar el comportamiento computacional de las formulaciones A y B bajo condiciones controladas y comparables.
+
+Como extensión del estudio, una calibración posterior podría incorporar precios y costos observados en la operación comercial, ya sea expresados directamente por gamela o convertidos desde valores por kilogramo, manteniendo la estructura operacional del modelo.
